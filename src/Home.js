@@ -11,7 +11,6 @@ function Home() {
             <input
                 data-cy="test-input"
                 value={value}
-                onChange={e => setValue(e.target.value)}
                 className='border border-gray-300'/>
         </div>
     );
