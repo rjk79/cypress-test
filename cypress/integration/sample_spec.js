@@ -1,19 +1,10 @@
 describe('My First Test', () => {
-    it('Does not do much!', () => {
-        expect(true).to.equal(true)
+    before(() => {
+        cy.visit('localhost:3000/')
     })
-})
 
-describe('My First Test', () => {
-    it('Visits the Kitchen Sink', () => {
-        cy.visit('https://example.cypress.io')
-        // cy.pause()
-        // cy.debug()
-        cy.contains('type').click()
-
-        cy.url().should('include', '/commands/actions')
-
-        cy.get('.action-email')
+    it('Does not do much!', () => {
+        cy.getBySel('test-input')
             .type('fake@email.com')
             .should('have.value', 'fake@email.com')
     })
