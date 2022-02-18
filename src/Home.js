@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 
 function Home() {
     const [value, setValue] = useState('')
+
     return (
         <div>
             <div className='text-blue-500 text-2xl border border-gray-300'>
