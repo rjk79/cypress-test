@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 function Home() {
-    const [value, setValue] = useState('')
+    const [value, setValue] = useState<string>('')
 
     return (
         <div>
