@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ."
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "eslintConfig": {
     "extends": [
@@ -50,9 +51,12 @@
     "@typescript-eslint/parser": "^5.13.0",
     "autoprefixer": "^10.4.2",
     "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-config-react": "^1.1.7",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.29.2",
     "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
     "tailwindcss": "^3.0.23"
   }
 }
