@@ -1,12 +1,14 @@
+### Live site: https://cypress-test-three.vercel.app/
+
 ## DONE
 Cypress
 Tailwind
 Typescript
 Github Actions
+Vercel
 
 ## TODO
 Prettier
 Eslint
-Vercel
 check linting
 check typing

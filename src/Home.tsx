@@ -16,7 +16,7 @@ function Home() {
                 placeholder="Enter Amount"
                 data-cy="test-input"
                 value={value}
-                onChange={e => setValue(e.target.value)}
+                // onChange={e => setValue(e.target.value)}
                 className='border border-gray-300' />
             <div className="flex items-center space-x-2">
                 <input type="radio" checked={tip === .15} value={.15} onChange={() => setTip(.15)} />
