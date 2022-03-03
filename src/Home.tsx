@@ -18,11 +18,11 @@ function Home() {
                 value={value}
                 onChange={e => setValue(e.target.value)}
                 className='border border-gray-300' />
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2" onClick={() => setTip(.15)}>
                 <input type="radio" checked={tip === .15} value={.15} onChange={() => setTip(.15)} />
                 <div>Tip (15%): $ {(numValue * .15).toFixed(2)}</div>
             </div>
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2" onClick={() => setTip(.2)}>
                 <input type="radio" checked={tip === .2} value={.2} onChange={() => setTip(.2)} />
                 <div>Tip (20%): $ {(numValue * .2).toFixed(2)}</div>
             </div>

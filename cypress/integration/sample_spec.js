@@ -3,7 +3,7 @@ describe('My First Test', () => {
         cy.visit('localhost:3000/')
     })
 
-    it('Does not do much!', () => {
+    it('Allows user to input values', () => {
         cy.getBySel('test-input')
             .type('fake@email.com')
             .should('have.value', 'fake@email.com')
