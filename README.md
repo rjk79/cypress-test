@@ -1,12 +1,13 @@
 ## DONE
+
 Cypress
 Tailwind
 Typescript
-Github Actions
-
-## TODO
+Github Actions - checks linting, tests
 Prettier
 Eslint
 Vercel
-check linting
+
+## TODO
+
 check typing
