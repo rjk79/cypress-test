@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 const TAX = 0.0875;
 
 function Home() {
-    const [value, setValue] = useState<string>('')
-    const [tip, setTip] = useState<number>(0.15)
+    const [value, setValue] = useState<string>('');
+    const [tip, setTip] = useState<number>(0.15);
     const numValue = Number(value);
 
     return (
