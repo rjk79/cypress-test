@@ -15,7 +15,7 @@ function Home() {
             <input
                 placeholder="Enter Amount"
                 data-cy="test-input"
-                value={value}
+                value="fake@e"
                 // onChange={e => setValue(e.target.value)}
                 className='border border-gray-300' />
             <div className="flex items-center space-x-2">
