@@ -7,6 +7,7 @@
 - Prettier
 - Eslint
 - Vercel
+- Next.js
 
 ## TODO
 
