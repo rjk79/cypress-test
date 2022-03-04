@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useRouter } from 'next/router'
 
 const TAX = 0.0875;
 
@@ -6,6 +7,7 @@ function Home() {
   const [value, setValue] = useState<string>('');
   const [tip, setTip] = useState<number>(0.15);
   const numValue = Number(value);
+  const router = useRouter()
 
   return (
     <div className="space-y-5 p-5">
@@ -27,6 +29,7 @@ function Home() {
       </div>
       <div>Tax: $ {(numValue * TAX).toFixed(2)}</div>
       <div>Total: $ {(numValue + numValue * TAX + numValue * tip).toFixed(2)}</div>
+     <button onClick={() => router.push('/restaurants')}>Go to Restaurants</button>
     </div>
   );
 }
