@@ -1,6 +1,6 @@
 describe('My First Test', () => {
   before(() => {
-    cy.visit('localhost:3000/');
+    cy.visit('localhost:3000/calculator');
   });
 
   it('Allows user to input values', () => {
