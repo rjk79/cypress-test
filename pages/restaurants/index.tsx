@@ -6,8 +6,11 @@ function Restaurants() {
 
   return (
     <div className="space-y-5 p-5">
-      List of Restaurants (WIP)
-      <button onClick={() => router.push('/')}>Home</button>
+      <div>List of Restaurants (WIP)</div>
+
+      <button className="rounded-lg text-purple-400" onClick={() => router.push('/')}>
+        Home
+      </button>
     </div>
   );
 }

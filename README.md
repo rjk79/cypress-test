@@ -8,5 +8,6 @@
 - Eslint
 - Vercel
 - Next.js
+- Overmind
 
 yarn dev => hot reload
