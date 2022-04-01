@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@mantine/core": "^4.1.0",
+    "@mantine/form": "^4.1.0",
+    "@mantine/hooks": "^4.1.0",
+    "@mantine/next": "^4.1.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -26,7 +30,8 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "reformat": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc && eslint --fix ."
   },
   "eslintConfig": {
     "extends": [

@@ -9,6 +9,4 @@
 - Vercel
 - Next.js
 
-## TODO
-
-- check typing
+yarn dev => hot reload
